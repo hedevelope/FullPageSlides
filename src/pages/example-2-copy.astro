@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Slide.astro';
+import { Code } from 'astro/components';
+import Controls from '../components/Controls.astro';
+---
+
+<Layout title="HACKED!">
+	<main>
+    <h1>HACKED!</h1>
+    <Code code={`        YOUR IP ADDRESS (192.168.3.4)             
+          @echo install virus.exe                 
+          if(os==windows){           
+          }
+          else{
+            @echo install virus.deb
+          }`} lang="css" theme="dracula" />
+		<h1>Tricked!</h1>
+    <p>Always check where links will take you. Consider this a lesson from me to you.</p>
+<a href="https://www.github.com/hedevelope/FullPageSlides">Check Full Project</a>
+<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f61c/512.gif" alt="😜" width="250" height="250">
+	</main>
+  <Controls href="index.html" />
+</Layout>

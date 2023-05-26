@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Slide.astro';
+import { Code } from 'astro/components';
+import Controls from '../components/Controls.astro';
+---
+
+<Layout title="LAZINESS">
+	<main>
+		<h1>I am too lazy to describe you :/</h1>
+    <p>Just look at below!</p>
+<Code code={`.hack { 
+  color: red; 
+  background: blue;
+}
+.checkwebsite { 
+  color: aqua; 
+  url: hedevelope.me;
+}`} lang="css" theme="dracula" />
+<a href="example-2-copy.html">Check Full Project</a>
+	</main>
+  <Controls href="example-2-copy.html" />
+</Layout>

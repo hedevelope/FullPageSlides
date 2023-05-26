@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Slide.astro';
+import { Code } from 'astro/components';
+import Controls from '../components/Controls.astro';
+---
+
+<Layout title="STEP#1">
+	<main>
+		<h1>Step #1</h1>
+    <p>How it works?</p>
+<Code code={`.dummycodes { 
+  color: red; 
+}`} lang="css" theme="dracula" />
+	</main>
+  <Controls href="example-2.html" />
+</Layout>
